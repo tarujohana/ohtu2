@@ -1,4 +1,5 @@
 *** Settings ***
+
 Resource  resource.robot
 Test Setup  Create User And Input Login Command
 

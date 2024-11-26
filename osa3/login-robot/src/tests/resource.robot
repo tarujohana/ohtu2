@@ -1,4 +1,5 @@
 *** Settings ***
+
 Library  ../AppLibrary.py
 
 *** Keywords ***
@@ -11,3 +12,7 @@ Input Credentials
     Input  ${password}
     Run Application
 
+Input New Command
+   Input  new
+  
+  
